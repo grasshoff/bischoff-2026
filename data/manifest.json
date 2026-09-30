@@ -1,0 +1,523 @@
+{
+ "slug": "medieval",
+ "facts": {
+  "pages_v1": {
+   "value": 518,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "done_v1": {
+   "value": 516,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "open_v1": {
+   "value": 2,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "year_v1": {
+   "value": 1998,
+   "source": "medieval-sec/bibliography.yaml (read off the title page)"
+  },
+  "pages_v2": {
+   "value": 465,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "done_v2": {
+   "value": 464,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "open_v2": {
+   "value": 1,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "year_v2": {
+   "value": 2004,
+   "source": "medieval-sec/bibliography.yaml (read off the title page)"
+  },
+  "pages_v3": {
+   "value": 658,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "done_v3": {
+   "value": 658,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "open_v3": {
+   "value": 0,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "year_v3": {
+   "value": 2014,
+   "source": "medieval-sec/bibliography.yaml (read off the title page)"
+  },
+  "vols": {
+   "value": 3,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "pages_total": {
+   "value": 1641,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "done_total": {
+   "value": 1638,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "open_total": {
+   "value": 3,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "done_pct": {
+   "value": 99.8,
+   "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
+  },
+  "editor": {
+   "value": "Birgit Ebersperger",
+   "source": "medieval-sec/bibliography.yaml (Bd. II, III: aus dem Nachlaß herausgegeben)"
+  },
+  "pages_qwen": {
+   "value": 1131,
+   "source": "page XML <meta model> stamps"
+  },
+  "pages_other_model": {
+   "value": 507,
+   "source": "page XML <meta model> stamps (gemini-flash-latest and unstamped pages)"
+  },
+  "xml_broken": {
+   "value": 3,
+   "source": "page XML that does not parse; the scan and the file exist, the text is not counted"
+  },
+  "xml_broken_list": {
+   "value": "Bischoff1998 Seite 5, Bischoff1998 Seite 21, Bischoff2004 Seite 392",
+   "source": "the pages behind xml_broken"
+  },
+  "cat_done_v1": {
+   "value": 418,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "cat_gap_v1": {
+   "value": 0,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "other_done_v1": {
+   "value": 98,
+   "source": "transcribed pages outside the catalogue span (front matter, Nachträge, Literatur, Register)"
+  },
+  "entries_v1": {
+   "value": 2640,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "mains_v1": {
+   "value": 2163,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "places_v1": {
+   "value": 132,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); distinct running-head places"
+  },
+  "cat_done_v2": {
+   "value": 368,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "cat_gap_v2": {
+   "value": 1,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "other_done_v2": {
+   "value": 96,
+   "source": "transcribed pages outside the catalogue span (front matter, Nachträge, Literatur, Register)"
+  },
+  "entries_v2": {
+   "value": 2410,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "mains_v2": {
+   "value": 1960,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "places_v2": {
+   "value": 59,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); distinct running-head places"
+  },
+  "cat_done_v3": {
+   "value": 549,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "cat_gap_v3": {
+   "value": 0,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "other_done_v3": {
+   "value": 109,
+   "source": "transcribed pages outside the catalogue span (front matter, Nachträge, Literatur, Register)"
+  },
+  "entries_v3": {
+   "value": 4964,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "mains_v3": {
+   "value": 4040,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "places_v3": {
+   "value": 69,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); distinct running-head places"
+  },
+  "entries_total": {
+   "value": 10014,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "mains_total": {
+   "value": 8163,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "xref_total": {
+   "value": 1116,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "misattr_total": {
+   "value": 526,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "prenine_total": {
+   "value": 171,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "addendum_total": {
+   "value": 20,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "litsub_total": {
+   "value": 17,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "places_total": {
+   "value": 260,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "nachtraege_entries": {
+   "value": 60,
+   "source": "Bd. II pages 20–32 (Nachträge zu Teil I)"
+  },
+  "nachtraege_pages": {
+   "value": 13,
+   "source": "Bd. II pages 20–32"
+  },
+  "nr_v1_start": {
+   "value": 1,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); numeric <number value> of type main"
+  },
+  "nr_v1_end": {
+   "value": 2038,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "nrs_v1": {
+   "value": 2001,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "nr_missing_v1": {
+   "value": 37,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); numbers inside the read range with no numeric main entry"
+  },
+  "nr_dup_v1": {
+   "value": 0,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "mains_unnumbered_v1": {
+   "value": 162,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); main entries without a numeric running number"
+  },
+  "nr_v2_start": {
+   "value": 2039,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); numeric <number value> of type main"
+  },
+  "nr_v2_end": {
+   "value": 3884,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "nrs_v2": {
+   "value": 1815,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "nr_missing_v2": {
+   "value": 31,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); numbers inside the read range with no numeric main entry"
+  },
+  "nr_dup_v2": {
+   "value": 1,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "mains_unnumbered_v2": {
+   "value": 144,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); main entries without a numeric running number"
+  },
+  "nr_v3_start": {
+   "value": 2412,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); numeric <number value> of type main"
+  },
+  "nr_v3_end": {
+   "value": 7656,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "nrs_v3": {
+   "value": 3758,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "nr_missing_v3": {
+   "value": 1487,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); numbers inside the read range with no numeric main entry"
+  },
+  "nr_dup_v3": {
+   "value": 57,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "mains_unnumbered_v3": {
+   "value": 218,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); main entries without a numeric running number"
+  },
+  "nr_ranges_de": {
+   "value": "Teil I 1–2038, Teil II 2039–3884, Teil III 2412–7656",
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); first and last numeric main-entry number per volume"
+  },
+  "scope_plain": {
+   "value": "die drei Teile",
+   "source": "all three volumes are in the count"
+  },
+  "scope_in": {
+   "value": "den drei Teilen",
+   "source": "all three volumes are in the count"
+  },
+  "scope_of": {
+   "value": "der drei Teile",
+   "source": "all three volumes are in the count"
+  },
+  "scope_acc": {
+   "value": "die drei Teile",
+   "source": "all three volumes are in the count"
+  },
+  "places_by_part": {
+   "value": "Teil I 132, Teil II 59, Teil III 69",
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); distinct running-head places per volume"
+  },
+  "top_place": {
+   "value": "Paris",
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "top_place_n": {
+   "value": 1640,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "top_place2": {
+   "value": "München",
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "top_place2_n": {
+   "value": 819,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "map_entries_europe": {
+   "value": 9333,
+   "source": "projects/medieval/places.yaml; entries whose running-head place falls in the Europe box"
+  },
+  "map_entries_america": {
+   "value": 143,
+   "source": "projects/medieval/places.yaml; entries whose running-head place falls in the North America box"
+  },
+  "map_places_america": {
+   "value": 14,
+   "source": "distinct North-American places with a hand-set coordinate"
+  },
+  "map_entries_unmapped": {
+   "value": 530,
+   "source": "entries whose running-head place has no coordinate, or a coordinate outside both boxes"
+  },
+  "map_places_unmapped": {
+   "value": 52,
+   "source": "distinct running-head places behind map_entries_unmapped"
+  },
+  "map_entries_mapped": {
+   "value": 9476,
+   "source": "entries placed on either map"
+  },
+  "origin_n": {
+   "value": 7389,
+   "source": "page XML main entries: <origin place date> as printed between the en-dashes"
+  },
+  "origin_place_n": {
+   "value": 7258,
+   "source": "page XML main entries: <origin place date> as printed between the en-dashes"
+  },
+  "origin_dated_n": {
+   "value": 7192,
+   "source": "page XML main entries: <origin place date> as printed between the en-dashes"
+  },
+  "origin_top1": {
+   "value": "Frankreich",
+   "source": "page XML main entries: <origin place date> as printed between the en-dashes"
+  },
+  "origin_top1_n": {
+   "value": 391,
+   "source": "page XML main entries: <origin place date> as printed between the en-dashes"
+  },
+  "dated_n": {
+   "value": 7192,
+   "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
+  },
+  "dated_ix_n": {
+   "value": 4814,
+   "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
+  },
+  "dated_ix_pct": {
+   "value": 66.9,
+   "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
+  },
+  "dated_early_n": {
+   "value": 1405,
+   "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
+  },
+  "dated_mid_n": {
+   "value": 2250,
+   "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
+  },
+  "dated_late_n": {
+   "value": 993,
+   "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
+  },
+  "dated_other_n": {
+   "value": 1794,
+   "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
+  },
+  "mains_all": {
+   "value": 8163,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
+  },
+  "cov_shelf_pct": {
+   "value": 94,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
+  },
+  "cov_contents_pct": {
+   "value": 93,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
+  },
+  "cov_folia_pct": {
+   "value": 64,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
+  },
+  "cov_size_pct": {
+   "value": 48,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
+  },
+  "cov_lines_pct": {
+   "value": 44,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
+  },
+  "cov_script_pct": {
+   "value": 42,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
+  },
+  "cov_origin_pct": {
+   "value": 91,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
+  },
+  "cov_prov_pct": {
+   "value": 29,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
+  },
+  "cov_lit_pct": {
+   "value": 59,
+   "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
+  },
+  "tv_date": {
+   "value": "30. September 2026",
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_pages": {
+   "value": 1641,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_ok": {
+   "value": 1560,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_warn": {
+   "value": 54,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_fail": {
+   "value": 27,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_fail_pct": {
+   "value": 1.7,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_fail_v1": {
+   "value": 12,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_pages_v1": {
+   "value": 518,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_fail_v2": {
+   "value": 8,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_pages_v2": {
+   "value": 465,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_fail_v3": {
+   "value": 7,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_pages_v3": {
+   "value": 658,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
+  },
+  "tv_fn_in_body": {
+   "value": 12,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text); flag FN-IN-BODY (footnote text inside the body)"
+  },
+  "tv_txt_gap": {
+   "value": 66,
+   "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text); flag TXT-GAP (printed text missing in the transcription)"
+  },
+  "status_overall": {
+   "value": "suchbereit",
+   "source": "medieval-sec/status.json (pdai-contract/1.0 audit); overall (not_ready = nicht bereit)"
+  },
+  "status_date": {
+   "value": "30. September 2026",
+   "source": "medieval-sec/status.json (pdai-contract/1.0 audit)"
+  },
+  "status_missing": {
+   "value": "nichts weiter",
+   "source": "medieval-sec/status.json (pdai-contract/1.0 audit); overall_reasons, else the structure gap, else nothing"
+  },
+  "spec_nr": {
+   "value": 2,
+   "source": "page XML: first Bd. I main entry showing shelfmark, contents, foliation, measurements, lines, script, origin and literature"
+  },
+  "spec_page": {
+   "value": 29,
+   "source": "page number as the viewer's counter shows it (folder page_NNN); the deep link is ?p=NNN+1"
+  },
+  "spec_folio": {
+   "value": "7",
+   "source": "page XML: running head folio of the specimen page"
+  },
+  "spec_place": {
+   "value": "Aachen",
+   "source": "page XML: running head place of the specimen page"
+  },
+  "spec_fields": {
+   "value": 9,
+   "source": "number of schema fields shown in the specimen"
+  }
+ },
+ "notes": [
+  "Running numbers continue from Teil I through Teil II into Teil III.",
+  "Running-head places without a coordinate: ERIVAN (JEREVAN), NIEDERNHALL (WÜRTTEMBERG), NOVARA, NOYON, NÜRNBERG, OBERKAUFUNGEN, OBERMARCHTAL, ORVIETO, OTTOBOUREN, PADERBORN, PASSAU, PETERBOROUGH, PETTAU (PTUJ), POMMERSFELDEN, PRINCETON (NEW JERSEY), PTUJ (PETTAU), PÜRGLITZ (KŘIVOKLÁT), REGENSBURG, RENNES, SAINT-AUBIN-DE-LUIGNÉ, SAINT-CLAUDE, SAINT-OMER, SAMEDAN (KT. GRAUBÜNDEN), SAN FRANCISCO (CALIFORNIA), SAN MARINO (CALIFORNIA), SARNEN (KT. OBWALDEN), SCHLÄGL, SEO DE URGEL, SEVILLA, SOLOTHURN, ST. FLORIAN, ST. PAUL (KÄRNTEN), STAMFORD (CONNECTICUT), STAMS, STRASSBURG (STRASBOURG), STRAUBING, SUTRI, SWEET BRIAR (VIRGINIA), TOURNUS, TRIENT (TRENTO), TÜBINGEN, ULM, UPPSALA, VERDUN, VIC, WARSCHAU, WEISSENBURG IN BAYERN, WIESBADEN, WIGAN, WROCŁAW (BRESLAU), ZADAR, ZWETTL",
+  "Map coordinates are city centres from projects/medieval/places.yaml, set by hand; there was no gazetteer lookup.",
+  "Dating bins: exact phrase table on the printed date after removing ca./wohl/um; alternatives, brackets and question marks go to 'anders' (mehrdeutig)."
+ ]
+}
